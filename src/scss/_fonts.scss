@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@400;700;900&family=Dancing+Script:wght@400;700&family=Modak&family=Nunito:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap');
+
+
+@mixin FontBigShoulders(){
+  font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+@mixin FontDancing(){
+  font-family: 'Dancing Script', cursive;
+}
+
+@mixin FontModak(){
+  font-family: 'Modak', cursive;
+}
+
+@mixin FontNunito(){
+  font-family: 'Nunito', sans-serif;
+}
+

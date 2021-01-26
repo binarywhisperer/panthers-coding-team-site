@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <h1>Panther's Coding Site</h1>
+    <button class="button is-fullwidth is-primary">REGISTER</button>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -15,6 +17,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
+  h1{
+    color: $color-primary;
+  }
 }
 
 #nav {

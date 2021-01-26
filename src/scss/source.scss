@@ -1,0 +1,12 @@
+@import 'fonts';
+@import 'variables';
+
+@import "../../node_modules/bulma/bulma.sass";
+
+html,
+body{
+  @include FontNunito();
+  background: $color-xiketic;
+  color: $color-primary;
+}
+
