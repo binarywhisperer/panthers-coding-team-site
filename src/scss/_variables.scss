@@ -1,12 +1,20 @@
 // Colors
 
 $color-space-cadet: #2C2A4A;
-$color-xiketic: #0F0F1A;
+
+$color-maximum-yellow: #F8F32B;
+$color-majorelle-blue: #6047FF;
+$color-lavender-blue: #ddd6ff;
+$color-ghost-white: #F4F4F9;
+$color-xiketic: #0f0f1a;
 
 
 // Colors Palette
-$color-primary: #A799FF;
-$color-secondary: #715AFF;
+$my-color-primary: $color-majorelle-blue;
+$my-color-primary-light: $color-lavender-blue;
+$my-color-accent: $color-maximum-yellow;
+$my-color-dark: $color-xiketic;
+$my-color-light: $color-ghost-white;
 
 // Bulma
-$primary: $color-primary;
+$primary: #6047FF;

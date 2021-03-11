@@ -1,26 +1,53 @@
 <template>
   <div id="app">
-    <h1>Panther's Coding Site</h1>
-    <button class="button is-fullwidth is-primary">REGISTER</button>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <div class="pct-hero">
+        <header>
+          <div class="pct-hero-title"><router-link to="/">Panthers Coding Team</router-link></div>
+
+            <ul class="pct-hero-nav">
+              <li><router-link to="/">About</router-link></li>
+              <li><router-link to="/schedule">Schedule</router-link></li>
+              <li><router-link to="/style-guide">Style Guide</router-link></li>
+            </ul>
+        </header>
+        <main>
+
+        </main>
+        <footer>
+          <nav class="tabs">
+            <div class="container">
+
+            </div>
+          </nav>
+        </footer>
+      </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.pct-hero{
+  background: $my-color-dark;
+  padding: 1vw 10vw;
 
-  h1{
-    color: $color-primary;
+  header{
+    display: flex; 
+    justify-content: space-between;
+    color: $my-color-light;
+
+    .pct-hero-title{
+      font-size: 1.5rem;
+    }
+
+    .pct-hero-nav{
+      flex-grow: 1;
+      max-width: 25vw;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 5vw;
+    }
   }
+
 }
 
 #nav {
