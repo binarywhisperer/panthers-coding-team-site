@@ -1,11 +1,17 @@
 <template>
   <div class="pct-container">
     <h1>Style Guide</h1>
-    <h2>Chadwick Logo</h2>
+    <h2>Chadwick Mascot</h2>
     <div class="pct-section">
       <div class="logo">
         <figure>
           <img alt="Panthers Coding Team Logo" src="../assets/logo.png"/>
+        </figure>
+      </div>
+      <h2>Panthers Coding Team Logo</h2>
+      <div class="logo">
+        <figure>
+          <img alt="Panthers Coding Team Square Logo" src="../../public/logo-square.png"/>
         </figure>
       </div>
 

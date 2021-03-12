@@ -64,11 +64,11 @@ export default {
 
 
 .pct-card{
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .pct-card-header{
-  padding: .25rem 1rem; 
+  padding: .5rem 1rem; 
   width: 100%;
   background: $my-color-dark;
   display: flex; 

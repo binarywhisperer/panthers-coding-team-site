@@ -65,7 +65,7 @@ export default {
         background-color: transparentize($my-color-accent, .33);
         position: absolute;
         bottom: 2px;
-        left: 10%;
+        left: 1rem;
         height: 1px;
       }
     }
