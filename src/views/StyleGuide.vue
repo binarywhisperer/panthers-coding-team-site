@@ -17,7 +17,8 @@
     </div>
 
     <h2>Colors</h2>
-    <div class="colors pct-section">
+    <div class="pct-section">
+      <div class="colors">
       <div class="color majorelle-blue">
         <div>
           <main>
@@ -57,6 +58,7 @@
           </main>
           <footer>Accent</footer>
           </div>
+      </div>
       </div>
       <div class="pct-flex-center">
         <a href="https://coolors.co/">
