@@ -156,6 +156,7 @@ h3 {
   justify-content: space-evenly;
 
   .color{
+    margin-top: 1rem;
     min-width: 185px;
     display: flex;
     justify-content: center;
