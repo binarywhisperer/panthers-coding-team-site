@@ -1,46 +1,5 @@
 @import 'fonts';
 @import 'variables';
-
+@import 'mixins';
 @import "../../node_modules/bulma/bulma.sass";
-
-html,
-body{
-  @include FontNunito();
-  margin: 0;
-  padding: 0;
-}
-
-a{
-  color: inherit;
-
-  &:hover{
-    color: $my-color-primary-light;
-  }
-  &:active{
-    color: $my-color-primary;
-  }
-}
-
-.pct-container{
-  width: 80vw;
-  margin:  0 5vw;
-  padding: 0 5vw 2rem 5vw;
-  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, .15);
-  background: $my-color-light;
-}
-
-@mixin h1InHero(){
-  h1{
-    width: 100%;
-    text-align: center;
-    background: $my-color-dark;
-    color:$my-color-light;
-    font-size: 1.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 0 .5rem 0;
-    border-radius: 0 0 1rem 1rem;
-    padding: 0;
-  }
-}
-
+@import 'globals';

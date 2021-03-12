@@ -6,15 +6,15 @@
         <header class="card-header">
           <div class="pct-card-header">
             <div class="pct-card-header-title">{{ event.title }}</div>
-            <div class="pct-card-header-date">{{ myDate }}</div>
+            <div class="pct-card-header-date">{{ myDate }}<span v-if="event.time"> @ {{ event.time }}</span></div>
           </div>
         </header>
-        <main class="card-content">
+        <main class="card-content" v-if="event.description">
           <div class="content">
             {{ event.description }}
           </div>
         </main>
-        <footer class="pct-card-footer" v-if="event.links">
+        <footer class="pct-card-footer" v-if="event.links.length">
           <header @click="toggleLinks" :class="linkClass">Links <span>(Click to expand)</span></header>
           <main>
             <ul>
@@ -49,7 +49,7 @@ export default {
       const d = new Date(this.event.date);
       const mo = new Intl.DateTimeFormat('en', { month: 'short' }).format(d);
       const da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
-      return `${mo} ${da} @ 1PM`
+      return `${mo} ${da}`
     },
     linkClass(){
       return {

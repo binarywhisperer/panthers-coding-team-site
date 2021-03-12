@@ -36,12 +36,15 @@
     </div>
     <div>
       <h3>Who</h3>
-        Instructor: Bryce Sharp<br>
-        Curriculum Creators: Bryce Sharp, Autumn Ragland<br>
-        Recruiter: Kareem DaSiliva<br>
-        Bryce Sharp -  Software Engineer at Ookla<br>
-        Autumn Ragland -  Frontend Engineer at Quadpay, Former Instructor at Code Crew<br>
-        Kareem DaSiliva- President of BDPA Memphis<br>
+        <h4>Roles</h4>
+        <strong>Instructor:</strong> Bryce Sharp<br>
+        <strong>Curriculum Creators:</strong> Bryce Sharp, Autumn Ragland<br>
+        <strong>Recruiter:</strong> Kareem DaSiliva<br>
+        <br>
+        <h4>People</h4>
+        <strong>Bryce Sharp</strong> -  Software Engineer at Ookla<br>
+        <strong>Autumn Ragland</strong> -  Frontend Engineer at Quadpay, Former Instructor at Code Crew<br>
+        <strong>Kareem DaSiliva</strong>- President of BDPA Memphis<br>
     </div>
   </div>
 </template>
