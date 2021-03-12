@@ -10,7 +10,7 @@
         preparation for our national web development coding competitions.
       </p>
       <ul>
-        <li><strong>17</strong> hands on <strong>2.5</strong> hours of digital lessons from industry leading professionals</li>
+        <li><strong>15</strong> hands on <strong>2.5</strong> hours of digital lessons from industry leading professionals</li>
         <li><strong>1</strong> Team jersey </li>
         <li><strong>1</strong> Year membership in BDPA Memphis</li>
         <li><strong>1</strong> National Conference Ticket with BDPA High School Coding Competition entry</li>
@@ -21,9 +21,9 @@
       <h3>When</h3>
       <ul>
         <li><strong>Competition Date:</strong> August 12th - 14th</li>
-        <li><strong>Sessions:</strong> March 13th - August 7th (Every Saturday except last Saturday of the month)</li>
+        <li><strong>Sessions:</strong> April 3rd - August 7th (Every Saturday except last Saturday of the month)</li>
         <li><strong>Sessions Schedule:</strong> 12PM - 2:30PM</li>
-        <li><strong>Last Saturdays of the Month:</strong> 3/27, 4/24, 5/29, 6/26 and 7/26</li>
+        <li><strong>Last Saturdays of the Month:</strong>4/24, 5/29, 6/26 and 7/26</li>
       </ul>
     </div>
     <div>
