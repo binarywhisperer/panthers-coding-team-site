@@ -1,18 +1,17 @@
 <template>
   <div class="pct-container">
-    <div class="register">
-      <a href="https://forms.gle/h8MeSVsc2CxiKbsW8"><button class="button is-primary">REGISTRATION FORM</button></a>
-    </div>
+    <h1>Panthers Coding Team</h1>
     <div>
       <h3>What</h3>
       <p>
-        Virtual hands on coaching from industry leading professionals in
-        preparation for our national web development coding competitions.
+        Virtual coaching from industry leading professionals in
+        preparation for our national web development coding competitions. No previous experience required.<br><br>
       </p>
       <ul>
-        <li><strong>15</strong> hands on <strong>2.5</strong> hours of digital lessons from industry leading professionals</li>
+        <li>A chance to win your share of <strong>$8,750</strong> in scholarships from the <a class="pct-link" href="https://2021.bdpa.org/">2021 BDPA virtual conference</a> High School Coding Competition</li>
+        <li><strong>14</strong> hands on <strong>2.5</strong> hours of digital lessons from industry leading professionals</li>
         <li><strong>1</strong> Team jersey </li>
-        <li><strong>1</strong> Year membership in BDPA Memphis</li>
+        <li><strong>1</strong> Year membership in <a class="pct-link" href="https://bdpamemphis.org">BDPA Memphis</a></li>
         <li><strong>1</strong> National Conference Ticket with BDPA High School Coding Competition entry</li>
         
       </ul>
@@ -28,7 +27,7 @@
     </div>
     <div>
       <h3>Where</h3>
-      <p>Digitally on <strong>Zoom</strong> provided by <a href="https://bdpamemphis.org">BDPA Memphis.</a></p>
+      <p>Digitally on <strong>Zoom</strong> provided by <a class="pct-link" href="https://bdpamemphis.org">BDPA Memphis.</a></p>
     </div>
     <div>
       <h3>Why</h3>
@@ -42,21 +41,22 @@
         <strong>Recruiter:</strong> Kareem DaSiliva<br>
         <br>
         <h4>PEOPLE:</h4>
-        <strong>Bryce Sharp</strong> -  Software Engineer at <a href="https://www.ookla.com/">Ookla</a><br>
-        <strong>Autumn Ragland</strong> -  Frontend Engineer at <a href="https://www.quadpay.com/">Quadpay</a>, Previously Instructor at <a href="https://www.code-crew.org/">Code Crew</a><br>
-        <strong>Kareem DaSiliva</strong>- President of <a href="https://bdpamemphis.org/">BDPA Memphis</a><br>
+        <strong>Bryce Sharp</strong> - Software Engineer at <a href="https://www.ookla.com/">Ookla</a><br>
+        <strong>Autumn Ragland</strong> - Frontend Engineer at <a href="https://www.quadpay.com/">Quadpay</a>, Previously Instructor at <a href="https://www.code-crew.org/">Code Crew</a><br>
+        <strong>Kareem DaSiliva</strong> - President of <a href="https://bdpamemphis.org/">BDPA Memphis</a><br>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-  components: {}
+  name: "Home"
 };
 </script>
 
 <style scoped lang="scss">
+@include h1InHero();
+
 h3 {
   color: $my-color-dark;
   font-weight: 900;
@@ -66,14 +66,6 @@ h3 {
 .pct-container{
   div{
     margin: 0 0 .5rem 0;
-
-    &.register{
-      display: flex;
-      justify-content: center;
-      padding: 1rem 0 .5rem 0;
-    }
   }
-
-
 }
 </style>

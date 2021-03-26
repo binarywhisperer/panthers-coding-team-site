@@ -2,7 +2,7 @@ module.exports = {
     state: () => ({
       events: [
         {
-            date: "2021-04-03T13:00:00",
+            date: "2021-04-10T13:00:00",
             time: "1PM",
             title: "Introduction to Frontend Coding #1",
             description: "Frontend code creates the user interface and defines how we interact with a website. CodePen.io is an web based frontend development environment that is ideal for getting started quick. We'll introduce the HTML, CSS and JavaScript languages and begin understanding how these three essential frontend languages each solve different problems. Bryce will share some of his favorite pens and our team members will start building their CodePen portfolio.",
@@ -37,7 +37,7 @@ module.exports = {
             tags: ["Setup", "YouTube", "HTML", "JavaScript", "CSS"]
            },
            {
-            date: "2021-04-10T13:00:00",
+            date: "2021-04-17T13:00:00",
             time: "1PM",
             title: "Introduction to Frontend Coding #2",
             description: "Building on the first lesson, we'll acquire more fundamental knowledge of HTML, CSS and JavaScript. We'll explore new HTML elements, CSS properties and JavaScript syntax. Building user friendly forms is powerful tool in every frontend developers utility belt. We will dig deep into forms and understand how small decisions have a giant impact on user experience.",
@@ -65,37 +65,30 @@ module.exports = {
             tags: ["Setup"]
            },
            {
-            date: "2021-04-17T13:00:00",
+            date: "2021-05-01T13:00:00",
             time: "1PM",
             title: "Advanced Frontend #1: Local Dev Environment",
             links: [],
             tags: []
            },
            {
-            date: "2021-05-01T13:00:00",
+            date: "2021-05-08T13:00:00",
             time: "1PM",
             title: "Advanced Frontend #2: Package Management with NPM",
             links: [],
             tags: []
            },
            {
-            date: "2021-05-08T13:00:00",
+            date: "2021-05-15T13:00:00",
             time: "1PM",
             title: "Advanced Frontend #3: Debugging and Efficiency",
             links: [],
             tags: []
            },
            {
-            date: "2021-05-15T13:00:00",
-            time: "1PM",
-            title: "Client Server Architecture",
-            links: [],
-            tags: []
-           },
-           {
             date: "2021-05-22T13:00:00",
             time: "1PM",
-            title: "Backend #1: Express Node Servers",
+            title: "Client Server Architecture",
             links: [],
             tags: []
            },
@@ -108,21 +101,21 @@ module.exports = {
            {
             date: "2021-06-05T13:00:00",
             time: "1PM",
-            title: "Backend #2: Databases and Queries",
+            title: "Backend #1: Express Node Servers",
             links: [],
             tags: []
            },
            {
             date: "2021-06-12T13:00:00",
             time: "1PM",
-            title: "Backend #3: API Development",
+            title: "Backend #2: Databases and Queries",
             links: [],
             tags: []
            },
            {
             date: "2021-06-19T13:00:00",
             time: "1PM",
-            title: "Backend #4: Developing Quality APIs",
+            title: "Backend #3: API Development",
             links: [],
             tags: []
            },
@@ -140,7 +133,7 @@ module.exports = {
             tags: []
            },
            {
-            date: "2021-07-10T1:00:00",
+            date: "2021-07-10T01:00:00",
             time: "1PM",
             title: "Full Stack Applications #2",
             links: [],

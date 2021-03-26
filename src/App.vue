@@ -11,17 +11,8 @@
               <li><a href="https://bdpamemphis.org">BDPA Memphis</a></li>
             </ul>
         </header>
-        <main>
-
-        </main>
-        <footer>
-          <nav class="tabs">
-            <div class="container">
-
-            </div>
-          </nav>
-        </footer>
       </div>
+    <registration></registration>  
     <router-view />
       <div class="pct-footer">
         © Copyright BDPA Memphis. All Rights Reserved {{ year() }}
@@ -31,10 +22,12 @@
 </template>
 <script>
 import Background from './components/Background.vue';
+import Registration from './components/Registration.vue';
 export default {
   name: "App",
   components: {
-    Background
+    Background,
+    Registration
   },
   methods:{
     year(){
@@ -89,7 +82,7 @@ export default {
     color: $my-color-light;
     .pct-hero-nav{
       flex-grow: 1;
-      max-width: 25vw;
+      max-width: 40vw;
       display: flex;
       justify-content: space-evenly;
       margin: 0 5vw;
@@ -100,6 +93,7 @@ export default {
       }
 
       li{
+        margin-left: 1rem;
         @media only screen and (max-width: 500px)  {
           max-width: 12vw;
         }
