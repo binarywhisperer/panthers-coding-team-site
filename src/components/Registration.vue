@@ -38,7 +38,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background: $my-color-primary-light;
+  background: transparentize($color:$my-color-primary-light, $amount: .25);
   
   &-content{
     text-align: center;
