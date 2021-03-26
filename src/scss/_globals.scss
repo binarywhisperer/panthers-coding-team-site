@@ -1,6 +1,7 @@
 html,
 body{
     background-color: $my-color-dark;
+    color: $my-color-dark;
     @include FontNunito();
     margin: 0;
     padding: 0;

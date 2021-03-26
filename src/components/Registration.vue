@@ -61,6 +61,8 @@ export default {
     }
     main{
       margin: .5rem 1rem;
+      font-weight: 700;
+      font-size: 1.1rem;
     }
     footer{
       display: flex;
