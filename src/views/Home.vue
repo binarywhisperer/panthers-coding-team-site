@@ -41,9 +41,9 @@
         <strong>Recruiter:</strong> Kareem DaSiliva<br>
         <br>
         <h4>PEOPLE:</h4>
-        <strong>Bryce Sharp</strong> - Software Engineer at <a href="https://www.ookla.com/">Ookla</a><br>
-        <strong>Autumn Ragland</strong> - Frontend Engineer at <a href="https://www.quadpay.com/">Quadpay</a>, Previously Instructor at <a href="https://www.code-crew.org/">Code Crew</a><br>
-        <strong>Kareem DaSiliva</strong> - President of <a href="https://bdpamemphis.org/">BDPA Memphis</a><br>
+        <strong>Bryce Sharp</strong> - Software Engineer at <a class="pct-link" href="https://www.ookla.com/">Ookla</a><br>
+        <strong>Autumn Ragland</strong> - Frontend Engineer at <a class="pct-link" href="https://www.quadpay.com/">Quadpay</a>, Previously Instructor at <a class="pct-link" href="https://www.code-crew.org/">Code Crew</a><br>
+        <strong>Kareem DaSiliva</strong> - President of <a class="pct-link" href="https://bdpamemphis.org/">BDPA Memphis</a><br>
     </div>
   </div>
 </template>

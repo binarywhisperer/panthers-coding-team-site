@@ -19,10 +19,10 @@ body{
 }
 
 strong{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 900;
     color: $my-color-dark;
-    text-shadow: 1px 1px 1px transparentize($my-color-primary, .8);
+    
 }
 
 a{
@@ -30,7 +30,7 @@ a{
   font-weight: 900;
 
   &.pct-link{
-    text-shadow: 1px 1px 3px $my-color-accent;
+    
     color: $my-color-primary;
   }
 
