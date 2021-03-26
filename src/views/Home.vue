@@ -27,7 +27,7 @@
     </div>
     <div>
       <h3>Where</h3>
-      <p>Digitally on <strong>Zoom</strong> provided by <a class="pct-link" href="https://bdpamemphis.org">BDPA Memphis.</a></p>
+      <p>Digitally on <strong>Zoom</strong> provided by <a class="pct-link" href="https://bdpamemphis.org">BDPA Memphis</a></p>
     </div>
     <div>
       <h3>Why</h3>
