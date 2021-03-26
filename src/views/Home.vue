@@ -20,7 +20,7 @@
       <h3>When</h3>
       <ul>
         <li><strong>Competition Date:</strong> August 12th - 14th</li>
-        <li><strong>Sessions:</strong> April 3rd - August 7th (Every Saturday except last Saturday of the month)</li>
+        <li><strong>Sessions:</strong> April 10th - August 7th (Every Saturday except last Saturday of the month)</li>
         <li><strong>Sessions Schedule:</strong> 12PM - 2:30PM</li>
         <li><strong>Last Saturdays of the Month:</strong>4/24, 5/29, 6/26 and 7/26</li>
       </ul>
